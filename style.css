@@ -1,0 +1,156 @@
+body{
+    background-color: #303030;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin: 0px !important;
+}
+.wrapper{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    padding: 40px 0px;
+}
+.logo{
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.nav{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #c34f4f;
+    text-align: center;
+}
+.content{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.footer{
+    text-align: center;
+    margin: 30px;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 200px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed #751b1b;
+}
+
+ol > li:hover
+{
+	background-color: #cf6969;
+}
+
+ol > li:hover > a
+{
+	color: #451717;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#cf6969;
+	position: relative;
+	z-index: 100;
+    border-top: 1px dashed #751b1b;
+    width: 200px;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #c34f4f;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #451717;
+}
+
+.social{
+    width: 100%;
+    text-align: center;
+    background-color: #292929;
+}
+
+.socialdivs{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.discord{
+    float: left;
+    width: 50%;
+    height: 155px;
+}
+
+.discord:hover{
+    background-color: #7289da;
+}
+
+.portfolio{
+    float: left;
+    width: 500px;
+    height: 155px;
+}
+
+.portfolio:hover{
+    background-color: gray;
+}
+
+a.sociallink{
+    color: #ffffff;
+    text-decoration: none;
+}
